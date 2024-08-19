@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+
+/* Skills Section */
+#skills {
+    background-color: #5ecdf3;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.2em;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#projects .projects-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#projects .project {
+    background-color: red;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#projects .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#projects .project h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+#projects .project p {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Resume Section */
+#resume {
+    background-color: lightgoldenrodyellow;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#resume a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #fff;
+    background-color:lightseagreen;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#resume a:hover {
+    background-color: #555;
+}
+
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
